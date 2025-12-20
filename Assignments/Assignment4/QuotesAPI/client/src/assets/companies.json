@@ -1,0 +1,204 @@
+[
+  {
+    "company": "Google",
+    "location": "USA",
+    "employees": [
+      {
+        "name": "Alice",
+        "role": "Engineer",
+        "skills": ["JavaScript", "React", "Node.js"]
+      },
+      {
+        "name": "Bob",
+        "role": "Designer",
+        "skills": ["Figma", "UI/UX", "Illustrator"]
+      },
+      {
+        "name": "Chris",
+        "role": "DevOps",
+        "skills": ["Docker", "Kubernetes", "GCP"]
+      }
+    ]
+  },
+  {
+    "company": "Microsoft",
+    "location": "USA",
+    "employees": [
+      {
+        "name": "David",
+        "role": "Manager",
+        "skills": ["Leadership", "Strategy", "Agile"]
+      },
+      { "name": "Emma", "role": "Engineer", "skills": ["C#", ".NET", "Azure"] },
+      {
+        "name": "Felix",
+        "role": "Support",
+        "skills": ["Troubleshooting", "Windows", "Networking"]
+      }
+    ]
+  },
+  {
+    "company": "Amazon",
+    "location": "USA",
+    "employees": [
+      {
+        "name": "Grace",
+        "role": "Data Scientist",
+        "skills": ["Python", "Machine Learning", "AWS"]
+      },
+      {
+        "name": "Harry",
+        "role": "Engineer",
+        "skills": ["Java", "Spring Boot", "Microservices"]
+      },
+      {
+        "name": "Ivy",
+        "role": "Product Manager",
+        "skills": ["Scrum", "Roadmaps", "Stakeholder Management"]
+      }
+    ]
+  },
+  {
+    "company": "Facebook",
+    "location": "USA",
+    "employees": [
+      {
+        "name": "Jack",
+        "role": "Engineer",
+        "skills": ["PHP", "GraphQL", "React"]
+      },
+      {
+        "name": "Kelly",
+        "role": "Researcher",
+        "skills": ["AI", "NLP", "Deep Learning"]
+      },
+      {
+        "name": "Leo",
+        "role": "Designer",
+        "skills": ["Sketch", "Prototyping", "Wireframes"]
+      }
+    ]
+  },
+  {
+    "company": "Tesla",
+    "location": "USA",
+    "employees": [
+      {
+        "name": "Mia",
+        "role": "Mechanical Engineer",
+        "skills": ["CAD", "Matlab", "Robotics"]
+      },
+      {
+        "name": "Nate",
+        "role": "Electrical Engineer",
+        "skills": ["Circuit Design", "Battery Tech", "Embedded Systems"]
+      },
+      {
+        "name": "Olivia",
+        "role": "Quality Analyst",
+        "skills": ["Testing", "Automation", "Safety Standards"]
+      }
+    ]
+  },
+  {
+    "company": "Netflix",
+    "location": "USA",
+    "employees": [
+      {
+        "name": "Paul",
+        "role": "Engineer",
+        "skills": ["Java", "Kotlin", "Spring"]
+      },
+      {
+        "name": "Quinn",
+        "role": "Data Engineer",
+        "skills": ["Spark", "Big Data", "Hadoop"]
+      },
+      {
+        "name": "Rachel",
+        "role": "UI Developer",
+        "skills": ["React", "Redux", "TypeScript"]
+      }
+    ]
+  },
+  {
+    "company": "Apple",
+    "location": "USA",
+    "employees": [
+      {
+        "name": "Sam",
+        "role": "iOS Developer",
+        "skills": ["Swift", "Objective-C", "Xcode"]
+      },
+      {
+        "name": "Tina",
+        "role": "Hardware Engineer",
+        "skills": ["Chip Design", "ARM", "Electronics"]
+      },
+      {
+        "name": "Uma",
+        "role": "UX Designer",
+        "skills": ["Human-Centered Design", "Figma", "Prototyping"]
+      }
+    ]
+  },
+  {
+    "company": "IBM",
+    "location": "USA",
+    "employees": [
+      {
+        "name": "Victor",
+        "role": "Cloud Architect",
+        "skills": ["Kubernetes", "Cloud", "AI Ops"]
+      },
+      { "name": "Wendy", "role": "Engineer", "skills": ["Java", "J2EE", "MQ"] },
+      {
+        "name": "Xander",
+        "role": "Security Analyst",
+        "skills": ["Ethical Hacking", "PenTesting", "Firewalls"]
+      }
+    ]
+  },
+  {
+    "company": "Adobe",
+    "location": "USA",
+    "employees": [
+      {
+        "name": "Yara",
+        "role": "Designer",
+        "skills": ["Illustrator", "Photoshop", "After Effects"]
+      },
+      {
+        "name": "Zane",
+        "role": "Engineer",
+        "skills": ["JavaScript", "Vue.js", "Node.js"]
+      },
+      {
+        "name": "Aria",
+        "role": "Marketing Specialist",
+        "skills": ["SEO", "Analytics", "Campaigns"]
+      }
+    ]
+  },
+  {
+    "company": "Oracle",
+    "location": "USA",
+    "employees": [
+      {
+        "name": "Ben",
+        "role": "Database Admin",
+        "skills": ["Oracle DB", "SQL", "PL/SQL"]
+      },
+      {
+        "name": "Clara",
+        "role": "Engineer",
+        "skills": ["Java", "Spring", "Hibernate"]
+      },
+      {
+        "name": "Dylan",
+        "role": "Cloud Engineer",
+        "skills": ["OCI", "Terraform", "Kubernetes"]
+      }
+    ]
+  }
+]

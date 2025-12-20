@@ -1,0 +1,25 @@
+# --- Dependencies ---
+node_modules/
+/dist
+/build
+
+# --- Security (CRITICAL) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- System/IDE ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Optional: Keep lock files UNLESS instructed otherwise ---
+# package-lock.json  <-- Remove the '#' if you really want to ignore it
+# yarn.lock          <-- Remove the '#' if you really want to ignore it

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <style>
+        body {
+            background-color: black;
+            text-align: center;
+        }
+
+        #result {
+            color: skyblue;
+            text-align: center;
+        }
+
+        p {
+            color: white;
+        }
+
+        #players {
+            margin-top: 10%;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        button {
+            margin-top: 40px;
+            width: 80px;
+            height: 25px;
+            background-color: blueviolet;
+            color: white;
+            font-size: medium;
+            border-radius: 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2 id="result">Let's Play!</h2>
+    <div id="players">
+        <div id="p1">
+            <p>Player 1</p>
+            <img id=p1image src="./dice1.png" width="150" hight="150">
+        </div>
+        <div id="p2">
+            <p>Player 2</p>
+            <img id="p2image" src="./dice1.png" width="150" hight="150">
+        </div>
+    </div>
+
+    <button id="roll">Roll Dice</button>
+    <script>
+        const result = document.getElementById("result")
+        const p1image = document.getElementById("p1image");
+        const p2image = document.getElementById("p2image");
+        const roll = document.getElementById("roll");
+
+        roll.addEventListener("click", function () {
+
+           let p1 = Math.floor(Math.random() * 6) + 1;
+           
+           let p2 = Math.floor(Math.random() * 6) + 1;
+          
+       
+                    p1image.src = `dice${p1}.png`;
+                    p2image.src = `dice${p2}.png`;
+        
+
+            // switch (p1) {
+            //     case 1:
+            //         p1image.src = "dice1.png";
+            //         break;
+            //     case 2:
+            //         p1image.src = "dice2.png";
+            //     case 3:
+            //         p1image.src = "dice3.png";
+            //         break;
+            //     case 4:
+            //         p1image.src = "dice4.png";
+            //         break;
+            //     case 5:
+            //         p1image.src = "dice5.png";
+            //         break;
+            //     case 6:
+            //         p1image.src = "dice6.png";
+            //         break;
+            //     default:
+            //         p1image.src = "dice1.png";
+            //         break;
+            // }
+            //    switch (p2) {
+            //     case 1:
+            //         p2image.src = "dice1.png";
+            //         break;
+            //     case 2:
+            //         p2image.src = "dice2.png";
+            //         break;
+            //     case 3:
+            //         p2image.src = "dice3.png";
+            //         break;
+            //     case 4:
+            //         p2image.src = "dice4.png";
+            //         break;
+            //     case 5:
+            //         p2image.src = "dice5.png";
+            //         break;
+            //     case 6:
+            //         p2image.src = "dice6.png";
+            //         break;
+            //     default:
+            //         p2image.src = "dice1.png";
+            //         break;
+            // }
+            if (p1 > p2) {
+                result.innerText="Player1 is Win✨";
+
+            } else if (p2 > p1) {
+                result.innerText="Player2 is Win✨";
+            }
+            else {
+              result.innerText="Match is draw🎉";
+            }
+        })
+
+
+
+    </script>
+
+</body>
+
+</html>
